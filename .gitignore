@@ -55,13 +55,14 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+# .env
 
 # next.js build output
 .next
 
 
 .DS_Store
+server/public/
 client/dist/
 client/test/unit/coverage/
 client/test/e2e/reports/
@@ -69,7 +70,7 @@ selenium-debug.log
 
 # Editor directories and files
 .idea
-.vscode
+# .vscode
 *.suo
 *.ntvs*
 *.njsproj
